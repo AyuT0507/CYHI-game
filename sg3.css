@@ -1,0 +1,52 @@
+/* #game-area {
+    position: relative;
+    height: 350px;
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid #333;
+    background-color: #dbeeff;
+    overflow: hidden;
+}
+
+.block {
+    position: absolute;
+     Width and height are now both set by JavaScript 
+    background-color: #565250;  New color 
+    cursor: pointer;
+    animation: slide 5s linear;
+}
+
+Ensure the starting 'right' is larger than maxWidth in JS 
+ @keyframes slide {
+    from {
+        right: -200px; 
+    }
+    to {
+        right: 100%;
+    }
+} 
+    */
+    /* style.css (No changes) */
+/* ... (body and #game-area styles remain the same) ... */
+
+#game-area {
+    position: relative;
+    height: 350px;
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid #333;
+    background-color: #dbeeff;
+    overflow: hidden;
+}
+
+.block {
+    position: absolute;
+    background-color: #d35400;
+    cursor: pointer;
+    animation: slide 5s linear;
+}
+
+@keyframes slide {
+    from { right: -200px; }
+    to { right: 100%; }
+}
