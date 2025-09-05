@@ -1,0 +1,6 @@
+#canvas{
+    background-color:white;
+    border: 3px solid rgb(248, 248, 248);
+    position:absolute;
+    bottom:200px;
+}
